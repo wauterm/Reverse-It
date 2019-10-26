@@ -51,7 +51,7 @@
             this.lbTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbTitle.Location = new System.Drawing.Point(12, 9);
             this.lbTitle.Name = "lbTitle";
-            this.lbTitle.Size = new System.Drawing.Size(180, 19);
+            this.lbTitle.Size = new System.Drawing.Size(219, 23);
             this.lbTitle.TabIndex = 0;
             this.lbTitle.Text = "Order me like this!";
             this.lbTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -65,7 +65,7 @@
             this.lblTitlePartTwo.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.lblTitlePartTwo.Location = new System.Drawing.Point(192, 9);
             this.lblTitlePartTwo.Name = "lblTitlePartTwo";
-            this.lblTitlePartTwo.Size = new System.Drawing.Size(198, 19);
+            this.lblTitlePartTwo.Size = new System.Drawing.Size(241, 23);
             this.lblTitlePartTwo.TabIndex = 1;
             this.lblTitlePartTwo.Text = "[ 1-2-3-4-5-6-7-8-9 ]";
             // 
@@ -78,7 +78,7 @@
             this.lblNineNumbers.ForeColor = System.Drawing.Color.Crimson;
             this.lblNineNumbers.Location = new System.Drawing.Point(62, 43);
             this.lblNineNumbers.Name = "lblNineNumbers";
-            this.lblNineNumbers.Size = new System.Drawing.Size(262, 24);
+            this.lblNineNumbers.Size = new System.Drawing.Size(330, 32);
             this.lblNineNumbers.TabIndex = 2;
             this.lblNineNumbers.Text = "[ 1-2-3-4-5-6-7-8-9 ]";
             // 
@@ -86,7 +86,7 @@
             // 
             this.tbInputNumber.Location = new System.Drawing.Point(166, 82);
             this.tbInputNumber.Name = "tbInputNumber";
-            this.tbInputNumber.Size = new System.Drawing.Size(49, 33);
+            this.tbInputNumber.Size = new System.Drawing.Size(49, 37);
             this.tbInputNumber.TabIndex = 3;
             this.tbInputNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -96,7 +96,8 @@
             this.btnCreateOrder.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCreateOrder.FlatAppearance.BorderSize = 3;
             this.btnCreateOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreateOrder.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.btnCreateOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateOrder.ForeColor = System.Drawing.Color.White;
             this.btnCreateOrder.Location = new System.Drawing.Point(141, 132);
             this.btnCreateOrder.Name = "btnCreateOrder";
             this.btnCreateOrder.Size = new System.Drawing.Size(97, 77);
@@ -115,7 +116,7 @@
             this.lblTooltipInfo.ForeColor = System.Drawing.SystemColors.Control;
             this.lblTooltipInfo.Location = new System.Drawing.Point(230, 85);
             this.lblTooltipInfo.Name = "lblTooltipInfo";
-            this.lblTooltipInfo.Size = new System.Drawing.Size(24, 26);
+            this.lblTooltipInfo.Size = new System.Drawing.Size(32, 34);
             this.lblTooltipInfo.TabIndex = 5;
             this.lblTooltipInfo.Text = "?";
             this.lblTooltipInfo.MouseHover += new System.EventHandler(this.lblTooltipInfo_MouseHover);
@@ -126,6 +127,7 @@
             this.btnRandomiseNumbers.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnRandomiseNumbers.FlatAppearance.BorderSize = 3;
             this.btnRandomiseNumbers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRandomiseNumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRandomiseNumbers.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnRandomiseNumbers.Location = new System.Drawing.Point(16, 132);
             this.btnRandomiseNumbers.Name = "btnRandomiseNumbers";
@@ -138,11 +140,11 @@
             // MainForm
             // 
             this.AcceptButton = this.btnCreateOrder;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(400, 221);
+            this.ClientSize = new System.Drawing.Size(440, 248);
             this.Controls.Add(this.btnRandomiseNumbers);
             this.Controls.Add(this.lblTooltipInfo);
             this.Controls.Add(this.btnCreateOrder);
@@ -151,7 +153,7 @@
             this.Controls.Add(this.lblTitlePartTwo);
             this.Controls.Add(this.lbTitle);
             this.DoubleBuffered = true;
-            this.Font = new System.Drawing.Font("Moonbeam", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
